@@ -1,0 +1,35 @@
+.row-odd{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	display:flex;
+	flex-direction:row;
+	background-color:lemonchiffon;
+}
+.row-even{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	display:flex;
+	flex-direction:row;
+	background-color:burlywood;
+}
+.column-left{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:10px;
+}
+.column-right{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:10px;
+	margin-right:0px;
+}
+.column-mid{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:10px;
+	margin-right:10px;
