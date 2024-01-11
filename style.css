@@ -45,7 +45,7 @@
 
 .biblio{li::before{
   display: inline-block;
-  content: counter(item) ") ";
+  content: "[" counter(item) "] ";
   counter-increment: item;
   width: 2em;
   margin-left: -2em;
