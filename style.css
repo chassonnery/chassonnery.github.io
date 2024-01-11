@@ -1,3 +1,12 @@
+.row-first{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	display:flex;
+	flex-direction:row;
+	background-color:white;
+}
 .row-odd{
 	padding-top:20px;
 	padding-bottom:20px;
