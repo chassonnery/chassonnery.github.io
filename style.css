@@ -42,3 +42,11 @@
 	margin-bottom:0px;
 	margin-left:10px;
 	margin-right:10px;
+
+.biblio{li::before{
+  display: inline-block;
+  content: counter(item) ") ";
+  counter-increment: item;
+  width: 2em;
+  margin-left: -2em;
+}}
