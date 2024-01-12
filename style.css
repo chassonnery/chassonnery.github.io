@@ -28,20 +28,20 @@
 .column-left{
 	margin-top:0px;
 	margin-bottom:0px;
-	margin-left:0px;
+	margin-left:auto;
 	margin-right:10px;
 }
 .column-right{
 	margin-top:0px;
 	margin-bottom:0px;
 	margin-left:10px;
-	margin-right:0px;
+	margin-right:auto;
 }
 .column-mid{
 	margin-top:0px;
 	margin-bottom:0px;
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 ol.biblio{
