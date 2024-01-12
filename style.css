@@ -43,6 +43,16 @@
 	margin-left:10px;
 	margin-right:10px;
 }
+
+ol.biblio {
+  counter-reset: counter-perso;
+  padding-left: 40px;
+}
+ol.biblio li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: counter-perso;
+  position: relative;
+}
 ol.biblio li::marker{
-	content: "[" counter(item) "] " ;
+	content: "[" counter(counter-perso) "] " ;
 }
