@@ -54,3 +54,5 @@ ol.biblio li{
   	position: relative;
 }
 ol.biblio li::marker{ content: "[" counter(counter-perso) "] " }
+
+a, a:hover, a:focus, a:active { color:inherit }
