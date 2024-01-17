@@ -62,7 +62,7 @@ div.thematic p{
 	margin-bottom:0;
 }
 div.thematic p+p{
-	margin-top: 0;
+	margin-top:0.5em;
 }
 
 /* .indented{
