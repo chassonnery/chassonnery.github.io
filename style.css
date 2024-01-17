@@ -50,7 +50,14 @@
 	margin:0 auto;
 }
 
-/* Define thematic class with*/
+/* Define divider class with
+	no top and bottom margins
+	left and right margins = 10px
+	level 3 titles in italic, not bolded
+	paragraphs shifted right by 40px
+	vertical margin between successive paragraphs = 0.5em
+	... but normal top (resp. bottom) margin for first (resp. last) paragraph
+*/
 div.thematic{
 	margin:0 10px;
 }
@@ -64,11 +71,6 @@ div.thematic p{
 div.thematic p+p{
 	margin-top:-0.5em;
 }
-
-/* .indented{
-	margin-left:40px;
-	margin-bottom:-0.5em;
-}*/
 
 /* Custom ordered-list style for bibliography */ 
 ol.biblio{
