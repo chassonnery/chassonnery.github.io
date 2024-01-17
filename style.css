@@ -1,3 +1,4 @@
+/* Uncolored first row for institution logos */
 .row-first{
 	padding-top:20px;
 	padding-bottom:20px;
@@ -7,6 +8,8 @@
 	flex-direction:row;
 	background-color:white;
 }
+
+/* Alternating colored rows */
 .row-odd{
 	padding-top:20px;
 	padding-bottom:20px;
@@ -25,6 +28,12 @@
 	flex-direction:row;
 	background-color:burlywood;
 }
+
+/* Divide page in three columns with 
+	utmost left and rigth margins = 10px
+	minimal inter-column margin = 30px
+	inter-column margin adapting to window size 
+*/
 .column-left{
 	margin-top:0px;
 	margin-bottom:0px;
@@ -41,11 +50,27 @@
 	margin:0 auto;
 }
 
-.indented{
+/* Define thematic class with*/
+div.thematic{
+	margin:0 10px;
+}
+div.thematic h3{
+	font-style:italic;
+}
+div.thematic p{
 	margin-left:40px;
-	margin-bottom:-0.5em;
+	margin-bottom:0;
+}
+div.thematic p+p{
+	margin-top: 0;
 }
 
+/* .indented{
+	margin-left:40px;
+	margin-bottom:-0.5em;
+}*/
+
+/* Custom ordered-list style for bibliography */ 
 ol.biblio{
 	counter-reset: counter-perso;
 	padding-left: 40px;
@@ -57,4 +82,5 @@ ol.biblio li{
 }
 ol.biblio li::marker{ content: "[" counter(counter-perso) "] " }
 
+/* Unset colors for url links */
 a, a:hover, a:focus, a:active { color:inherit }
