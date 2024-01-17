@@ -56,6 +56,7 @@ div.thematic{
 }
 div.thematic h3{
 	font-style:italic;
+	font-weight:normal;
 }
 div.thematic p{
 	margin-left:40px;
